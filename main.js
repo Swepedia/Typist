@@ -5,4 +5,3 @@ var canvas = document.getElementById("canvas"),
     textboxHeight = document.getElementById("textbox").offsetHeight;
 
 canvas.height -= textboxHeight;
-context.fillRect(0, 0, width, height);
