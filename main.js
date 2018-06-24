@@ -1,8 +1,8 @@
-window.onload = function() {
-    var canvas = document.getElementById("canvas"),
-        context = canvas.getContext("2d"),
-        width = canvas.width = window.innerWidth,
-        height = canvas.height = window.innerHeight;
+var canvas = document.getElementById("canvas"),
+    context = canvas.getContext("2d"),
+    width = canvas.width = window.innerWidth,
+    height = canvas.height = window.innerHeight;
+    textboxHeight = document.getElementById("textbox").offsetHeight;
 
-    context.fillRect(0, 0, width, height);
-};
+canvas.height -= textboxHeight;
+context.fillRect(0, 0, width, height);
