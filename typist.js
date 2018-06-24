@@ -1,0 +1,4 @@
+var target {
+    word:"",
+    position:
+};
